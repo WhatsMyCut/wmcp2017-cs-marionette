@@ -1,0 +1,30 @@
+{
+  "name": "wmcp-2017-marionette",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "jquery.cookie": "~1.4.1",
+    "bootstrap-sass": "^3.3.6",
+    "underscore": "~1.8.3",
+    "backbone": "~1.2.3",
+    "marionette": "~3.2.0",
+    "handlebars": "~4.0.5",
+    "bootstrap": "~3.3.7",
+    "json": "#2012.10.08",
+    "requirejs": "~2.3.3",
+    "requirejs-text": "~2.0.15",
+    "async": "~0.2.8",
+    "i18n": "git+https://github.com/andrefarzat/js-i18n.git",
+    "modernizr": "~3.3.1",
+    "backbone.wreqr": "~1.4.0",
+    "backbone.babysitter": "~0.1.12",
+    "backbone.syphon": "~0.6.3",
+    "backbone.iobind": "~0.4.9",
+    "backbone-relational": "~0.10.0",
+    "mocha": "~1.12.0",
+    "chai": "~1.7.2",
+    "sinon": "~1.7.3"
+  },
+  "devDependencies": {},
+  "directory": "app/bower_components"
+}

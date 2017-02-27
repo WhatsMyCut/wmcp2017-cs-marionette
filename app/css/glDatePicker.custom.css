@@ -1,0 +1,13 @@
+/* Special */
+.gldp-flatwhite .special {
+	color: #fff;
+	font-weight: bold;
+	border-color: #444;
+	background: #966;
+}
+.calendar-holiday {
+	color: #fff !important;
+	background:#933 !important;
+	border-color: #f99 !important;
+	font-weight: bold !important;
+}

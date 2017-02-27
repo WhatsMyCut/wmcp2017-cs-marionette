@@ -1,0 +1,20 @@
+<div class="staff-photo-cell"><div class="staff-photo {{photoClass}}"></div></div>
+<div class="staff-info-cell">
+	<b>{{firstname}} {{lastname}}
+		{{#if title}}
+		<br />{{title}}
+		{{/if}}
+	</b>
+	{{#if phone}}
+	<br /><span class="fa fa-phone" title="Phone">&nbsp;</span> {{phone}}
+	{{/if}}
+	{{#if mobile}}
+	<br />&nbsp;<span class="fa fa-mobile" title="Mobile">&nbsp;&nbsp;</span> {{mobile}}
+	{{/if}}
+	{{#if fax}}
+	<br /><span class="fa fa-fax" title="Fax">&nbsp;</span> {{fax}}
+	{{/if}}
+	{{#if email}}
+	<br /><span class="fa fa-envelope" title="Email">&nbsp;</span>&nbsp;<a href="mailto:{{email}}">{{email}}</a>
+	{{/if}}
+</div>

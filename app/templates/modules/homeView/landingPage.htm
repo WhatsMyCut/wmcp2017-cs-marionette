@@ -1,0 +1,312 @@
+<link href="css/glDatePicker.flatwhite.css" rel="stylesheet" type="text/css">
+<link href="css/glDatePicker.default.css" rel="stylesheet" type="text/css">
+<link href="css/glDatePicker.custom.css" rel="stylesheet" type="text/css">
+<link href="css/slick.css" rel="stylesheet" type="text/css">
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+<div id="home-landing-page">
+	<div id="links">
+
+		<div class="btn-group">
+			<button type="button" class="btn btn-default">Documents and Links</button>
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+				<span class="sr-only">Toggle Dropdown</span>
+			</button>
+			<ul class="dropdown-menu right-aligned" role="menu">
+				<li class="bold section-header">DBI Policies and Procedures</li>
+				<li><a href="http://dbi-intranet/dbi_files/Docs/Record_RetentionDestruction_Policy.pdf" target="_blank"><span class="fa fa-file-pdf-o">&nbsp;</span>&nbsp;<span class="text">DBI Record Retention/Destruction Policy</span></a></li>
+				<li><a href="http://dbi-intranet/DBI_Files/Docs/Statement_Incomp_Actvts.pdf" target="_blank"><span class="fa fa-file-pdf-o">&nbsp;</span>&nbsp;<span class="text">DBI Statement of Activities (2014)</span></a></li>
+				<li class="divider"></li>
+				<li class="bold section-header">What's New at DBI</li>
+				<li><a href="pdf/homeView/DBI_Phone_Directory.pdf" target="_blank"><span class="fa fa-file-pdf-o">&nbsp;</span>&nbsp;<span class="text">Staff Phone Directory</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="split-column">
+		<div class="main-column">
+			
+			<div class="clearfix">
+				<div class="staff-photo painted-ladies"></div>
+				<p class="pad-left">
+					This site is designed to provide all DBI employees with accurate, current and easy-to-access information about the Department&#039;s divisions and professional services. With virtually all our key resources just a few clicks away on your computers, all DBI staff now has an enhanced ability to respond immediately, accurately and completely to the widest possible range of customer questions you may encounter in your jobs on a daily basis.
+				</p>
+				<p class="pad-left">
+					<a href="#director"><span class="fa fa-comment director-comment">&nbsp;</span>&nbsp;<b>More from Director Hui...</b></a>
+				</p>
+			</div>
+			<br>
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title bold"><span class="fa fa-clock-o">&nbsp;</span>&nbsp;What&#039;s New at DBI</h3>
+				</div>
+				<div class="panel-body">
+					<div id="carousel-container" class="lazy slider">
+						<div><div class="image"><a href="http://sfdbi.org/unitaddition" target="_blank"><img data-lazy="/img/homeView/announcements/1_unitaddition.jpg"/></a></div></div>
+						<div><div class="image"><a href="http://sfdbi.org/brown-bag-series" target="_blank"><img data-lazy="/img/homeView/announcements/2_brownbags.jpg"/></a></div></div>
+						<div><div class="image"><a href="http://sfdbi.org/buildingsafetymonth" target="_blank"><img data-lazy="/img/homeView/announcements/3_buildingsafetymonth.jpg"/></a></div></div>
+						<div><div class="image"><a href="http://sfdbi.org/codes" target="_blank"><img data-lazy="/img/homeView/announcements/4_californiacodes.jpg"/></a></div></div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="panel panel-primary" id="resources">
+				<div class="panel-heading">
+					<h3 class="panel-title bold"><span class="fa fa-book">&nbsp;</span>&nbsp;City Resources</h3>
+				</div>
+				<table class="table table-striped table-condensed">
+					<tbody>
+						<tr>
+							<td class="bold"><span class="fa fa-external-link">&nbsp;</span>&nbsp;<a href="/pdf/homeView/Employee_Photobook.pdf" target="_blank">DBI Employee Photobook</a></td>
+						</tr>
+						<tr>
+							<td class="bold"><span class="fa fa-external-link">&nbsp;</span>&nbsp;<a href="http://www.sfgov2.org/index.aspx?page=4711" target="_blank">City Payroll/HR</a></td>
+						</tr>
+						<tr>
+							<td class="bold"><span class="fa fa-external-link">&nbsp;</span>&nbsp;<a href="http://mission.sfgov.org/IntranetDirectory/" target="_blank">City Phone Directory</a></td>
+						</tr>
+						<tr>
+							<td class="bold"><span class="fa fa-file-pdf-o">&nbsp;</span>&nbsp;<a href="http://dbi-intranet/DBI_Docs/SFEnvironment/Commuter_Benefits_Program.pdf" target="_blank">Commuter Benefits Program </a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="right-column">
+			<!--input type="text" id="mydate" gldp-id="mydate" style="border:0;"/>
+			<div id="calendar-container" >	
+				<div class="calendar-header">
+					Payday &amp; Holiday Calendar
+				</div>
+				<div gldp-el="mydate" style="width:225px; height:150px;" id="mydate-calendar"></div>
+				<a id="tooltip" class="tooltips" href="javascript:void(0)">&nbsp;<span id="tooltip-text">Tooltip</span></a>
+			</div-->
+			<div id="social-media-container">
+				<div id="twitter-feed">
+					<a class="twitter-timeline" href="https://twitter.com/sfdbi" data-widget-id="560552866134253569" data-link-color="#3465A4" data-border-color="#cccccc">Tweets by @sfdbi</a>
+					<script>
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+					</script>
+				</div>
+				<div id="facebook-feed">
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+					fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-like-box" data-href="https://www.facebook.com/SFDBI" data-width="230px" data-height="280px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--script type="text/javascript" src="js/modules/homeView/landingPageInit.js"></script-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		// Set up the Calendar
+		/*
+		var specialDates = [];
+		var ppStartDay = 2;
+		var ppStartMonth = 0;
+		var ppStartYear = 2015;
+		var currDate = new Date(ppStartYear, ppStartMonth, ppStartDay);
+		do {
+			specialDates.push({
+				date: new Date(currDate.getFullYear(), currDate.getMonth(), currDate.getDate()),
+				data: {message:"Pay Period End"},
+				cssClass: "calendar-payperiod-end"
+			});
+			currDate.setDate(currDate.getDate() + 14);
+		} while (currDate.getFullYear() < (ppStartYear + 2));
+		currDate = new Date(ppStartYear,0,13);
+		do {
+			specialDates.push({
+				date: new Date(currDate.getFullYear(), currDate.getMonth(), currDate.getDate()),
+				data: {message:"Payday"},
+				cssClass: "calendar-payday"
+			});
+			currDate.setDate(currDate.getDate() + 14);
+		} while (currDate.getFullYear() < (ppStartYear + 2));	
+		var holidays = [
+			// REMEMBER TO ENTER MONTHS WITH JAN = 0!
+			// CCSF Holidays
+			 {
+				date: new Date(1970, 0, 1),
+				data: { message: "Holiday: New Year's Day" },
+				repeatYear: true,
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 0, 19),
+				data: { message: "Holiday: Presidents' Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 1, 16),
+				data: { message: "Holiday: Martin Luther King, Jr. Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 4, 25),
+				data: { message: "Holiday: Memorial Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(1970, 6, 3),
+				data: { message: "Holiday: Independence Day (Observed)\nPay Period End" },
+				repeatYear: true,
+				cssClass: 'calendar-holiday-payperiod-end'
+			},
+			{
+				date: new Date(1970, 6, 4),
+				data: { message: "Holiday: Independence Day" },
+				repeatYear: true,
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 8, 7),
+				data: { message: "Holiday: Labor Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 9, 12),
+				data: { message: "Holiday: Columbus Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 10, 11),
+				data: { message: "Holiday: Veterans' Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 10, 26),
+				data: { message: "Holiday: Thanksgiving Day" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2015, 10, 27),
+				data: { message: "Holiday: Black Friday" },
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(1970, 11, 25),
+				data: { message: "Holiday: Christmas Day" },
+				repeatYear: true,
+				cssClass: 'calendar-holiday'
+			},
+			{
+				date: new Date(2016, 0, 1),
+				data: { message: "Holiday: New Year's Day\nPay Period End" },
+				repeatYear: true,
+				cssClass: 'calendar-holiday-payperiod-end'
+			}
+		];
+		while (holidays.length > 0) {
+			specialDates.push(holidays.shift());
+		}
+		var cal = $('#mydate').glDatePicker({
+			showAlways: true,
+			cssName: 'flatwhite',
+			borderSize: 2,
+			calendarOffset: { x: 0, y: 0 },
+			zIndex: 1,
+			pointerX: 0,
+			pointerY: 0,
+			//selectedDate: new Date(2015, 6, 5),
+
+			onHover: function(target, cell, date, data) {
+				var tt = $("#tooltip");
+
+				if (data !== null) {
+					//console.info(window.x + ", " + window.y);
+					$("#tooltip-text").html("<nobr>" + date.toLocaleDateString()+ "<wbr>" + data.message + "</nobr>");
+					tt.css("position", "absolute").css("left", (window.x - 1005) + "px").css("top", (window.y - 180) + "px");
+					tt.show();
+				} else {
+					tt.hide();
+				}
+			},
+			/*
+			onClick: function(target, cell, date, data) {
+				//alert('click');
+
+				//console.info(target);
+				//console.info(cell);
+				//console.info(date);
+				//console.info(data);
+				//$("#mydate-calendar").css("display", "block").show();
+
+				target.val(date.getFullYear() + ' - ' +
+							(date.getMonth()+1) + ' - ' +
+							date.getDate());
+
+				if(data != null) {
+					//alert(date.toLocaleDateString()+ '\n' + data.message);
+					$("#tooltip-text").html("<nobr>" + date.toLocaleDateString()+ "<wbr>" + data.message + "</nobr>");
+					$("#tooltip").trigger("hover");
+					//$("#tooltip").css("visibility", "visible");
+				}
+			},
+			*/
+		/*
+			onShow: function(calendar) {
+				//alert('show');
+				$("#mydate-calendar").css("display", "block").show(250);
+			},
+			onHide: function (calendar) {
+				//alert('hide');
+				console.warn(this);
+				return true;
+			},
+			specialDates: specialDates
+		}).glDatePicker(true);
+		cal.render();
+		cal.show();
+*/
+
+		// Set up the Carousel
+		$("#carousel-container").slick({
+		autoplay: true,
+		//adaptiveHeight: true,
+		variableWidth: false,
+		arrows: false,
+		//centerMode: true,
+		//centerPadding: '10px',
+		//slidesToShow: 3,
+		dots: true,
+		draggable: false,
+		infinite: true,
+		fade:true,
+		lazyLoad: 'ondemand',
+		//cssEase: 'linear',
+		/*
+		responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 3
+			  }
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				}
+			}
+		]
+		*/
+		});
+
+	}).mousemove(function (evt){
+		window.x = evt.clientX;
+		window.y = evt.clientY;
+	});
+</script>
